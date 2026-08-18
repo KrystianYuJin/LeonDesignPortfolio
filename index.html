@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon Design Portfolio</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            background: #111;
+            color: #f5f5f5;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .fallback {
+            padding: 12px 16px;
+            text-align: center;
+            background: #1b1b1b;
+        }
+
+        .fallback a {
+            color: #9fd3ff;
+        }
+
+        iframe {
+            border: 0;
+            flex: 1;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fallback">
+        If the portfolio PDF does not load automatically, open it directly:
+        <a href="./index.pdf">index.pdf</a>
+    </div>
+    <iframe src="./index.pdf" title="Leon Design Portfolio"></iframe>
+</body>
+
+</html>
